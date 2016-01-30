@@ -122,4 +122,3 @@ def generateActivityFeedsEvent(notificationMessage) {
 	sendEvent(name: "notificationMessage", value: "$device.displayName $notificationMessage", descriptionText: "$device.displayName $notificationMessage", displayed: true)
 }
 
-
